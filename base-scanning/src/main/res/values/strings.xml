@@ -1,0 +1,6 @@
+<resources>
+    <string name="scan_bottom_title_text">扫一扫</string>
+    <string name="scan_content_desc_text">识别条形码/二维码</string>
+
+    <string name="prompt_searching">Searching&#8230;</string>
+</resources>
