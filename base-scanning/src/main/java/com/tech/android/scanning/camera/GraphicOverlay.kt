@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tech.android.base.scanning.camera
+package com.tech.android.scanning.camera
 
 import android.content.Context
 import android.graphics.Canvas
@@ -22,8 +22,7 @@ import android.graphics.Rect
 import android.graphics.RectF
 import android.util.AttributeSet
 import android.view.View
-import com.tech.android.base.scanning.Utils
-import com.tech.android.base.scanning.camera.GraphicOverlay.Graphic
+import com.tech.android.scanning.Utils
 
 /**
  * A view which renders a series of custom graphics to be overlaid on top of an associated preview

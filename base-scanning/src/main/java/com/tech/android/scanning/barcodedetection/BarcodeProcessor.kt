@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tech.android.base.scanning.barcodedetection
+package com.tech.android.scanning.barcodedetection
 
 import android.animation.ValueAnimator
 import android.util.Log
@@ -23,11 +23,11 @@ import com.google.android.gms.tasks.Task
 import com.google.mlkit.vision.barcode.BarcodeScanning
 import com.google.mlkit.vision.barcode.common.Barcode
 import com.google.mlkit.vision.common.InputImage
-import com.tech.android.base.scanning.InputInfo
-import com.tech.android.base.scanning.camera.CameraReticleAnimator
 import com.tech.android.base.scanning.camera.FrameProcessorBase
-import com.tech.android.base.scanning.camera.GraphicOverlay
-import com.tech.android.base.scanning.camera.WorkflowModel
+import com.tech.android.scanning.InputInfo
+import com.tech.android.scanning.camera.CameraReticleAnimator
+import com.tech.android.scanning.camera.GraphicOverlay
+import com.tech.android.scanning.camera.WorkflowModel
 import java.io.IOException
 
 /** A processor to run the barcode detector.  */

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.tech.android.base.scanning.barcodedetection
+package com.tech.android.scanning.barcodedetection
 
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.graphics.Paint.Style
 import android.graphics.RectF
 import androidx.core.content.ContextCompat
-import com.tech.android.base.scanning.R
-import com.tech.android.base.scanning.camera.CameraReticleAnimator
-import com.tech.android.base.scanning.camera.GraphicOverlay
+import com.tech.android.scanning.R
+import com.tech.android.scanning.camera.CameraReticleAnimator
+import com.tech.android.scanning.camera.GraphicOverlay
 
 /**
  * A camera reticle that locates at the center of canvas to indicate the system is active but has

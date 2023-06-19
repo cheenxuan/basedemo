@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.tech.android.base.scanning
+package com.tech.android.scanning
 
 import android.graphics.Bitmap
-import com.tech.android.base.scanning.camera.FrameMetadata
+import com.tech.android.scanning.camera.FrameMetadata
 import java.nio.ByteBuffer
 
 interface InputInfo {

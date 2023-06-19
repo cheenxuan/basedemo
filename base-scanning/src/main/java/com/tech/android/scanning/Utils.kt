@@ -14,25 +14,22 @@
  * limitations under the License.
  */
 
-package com.tech.android.base.scanning
+package com.tech.android.scanning
 
 import android.app.Activity
 import android.content.ContentResolver
 import android.content.Context
 import android.content.Intent
-import android.content.pm.PackageManager
 import android.content.res.Configuration
 import android.graphics.*
 import android.hardware.Camera
 import android.net.Uri
 import android.util.Log
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat.checkSelfPermission
 import androidx.exifinterface.media.ExifInterface
 import com.google.mlkit.vision.barcode.common.Barcode
 import com.google.mlkit.vision.common.InputImage
-import com.tech.android.base.scanning.camera.CameraSizePair
-import com.tech.android.base.scanning.camera.GraphicOverlay
+import com.tech.android.scanning.camera.CameraSizePair
+import com.tech.android.scanning.camera.GraphicOverlay
 import java.io.ByteArrayOutputStream
 import java.io.IOException
 import java.io.InputStream

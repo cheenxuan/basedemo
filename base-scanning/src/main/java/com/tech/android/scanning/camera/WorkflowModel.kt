@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tech.android.base.scanning.camera
+package com.tech.android.scanning.camera
 
 import android.app.Application
 import androidx.annotation.MainThread

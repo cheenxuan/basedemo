@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tech.android.base.scanning
+package com.tech.android.scanning
 
 import java.util.concurrent.Executor
 import java.util.concurrent.atomic.AtomicBoolean

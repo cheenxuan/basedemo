@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.tech.android.base.scanning.barcodedetection
+package com.tech.android.scanning.barcodedetection
 
 import android.animation.ValueAnimator
 import android.graphics.Canvas
 import android.graphics.Path
 import android.graphics.Point
 import android.graphics.PointF
-import com.tech.android.base.scanning.camera.GraphicOverlay
+import com.tech.android.scanning.camera.GraphicOverlay
 
 /** Draws the graphic to indicate the barcode result is in loading.  */
 internal class BarcodeLoadingGraphic(

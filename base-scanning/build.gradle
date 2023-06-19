@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace 'com.tech.android.base.scanning'
+    namespace 'com.tech.android.scanning'
     compileSdk 33
 
     defaultConfig {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tech.android.base.scanning.camera
+package com.tech.android.scanning.camera
 
 import android.content.Context
 import android.util.AttributeSet
@@ -23,8 +23,8 @@ import android.view.SurfaceHolder
 import android.view.SurfaceView
 import android.widget.FrameLayout
 import com.google.android.gms.common.images.Size
-import com.tech.android.base.scanning.R
-import com.tech.android.base.scanning.Utils
+import com.tech.android.scanning.R
+import com.tech.android.scanning.Utils
 import java.io.IOException
 
 /** Preview the camera image in the screen.  */

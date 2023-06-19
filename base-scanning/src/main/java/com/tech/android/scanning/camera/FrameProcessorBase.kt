@@ -24,9 +24,13 @@ import com.google.android.gms.tasks.Task
 import com.google.android.gms.tasks.TaskExecutors
 
 import com.google.mlkit.vision.common.InputImage
-import com.tech.android.base.scanning.CameraInputInfo
-import com.tech.android.base.scanning.InputInfo
-import com.tech.android.base.scanning.ScopedExecutor
+import com.tech.android.scanning.CameraInputInfo
+import com.tech.android.scanning.InputInfo
+import com.tech.android.scanning.ScopedExecutor
+import com.tech.android.scanning.camera.FrameMetadata
+import com.tech.android.scanning.camera.FrameProcessor
+import com.tech.android.scanning.camera.GraphicOverlay
+
 import java.nio.ByteBuffer
 
 /** Abstract base class of [FrameProcessor].  */

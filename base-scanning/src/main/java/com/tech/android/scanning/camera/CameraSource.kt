@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tech.android.base.scanning.camera
+package com.tech.android.scanning.camera
 
 import android.content.Context
 import android.graphics.ImageFormat
@@ -26,7 +26,7 @@ import android.view.Surface
 import android.view.SurfaceHolder
 import android.view.WindowManager
 import com.google.android.gms.common.images.Size
-import com.tech.android.base.scanning.Utils
+import com.tech.android.scanning.Utils
 import java.io.IOException
 import java.nio.ByteBuffer
 import java.util.*

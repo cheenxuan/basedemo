@@ -1,4 +1,4 @@
-package com.tech.android.base.scanning.camera
+package com.tech.android.scanning.camera
 
 import java.nio.ByteBuffer
 

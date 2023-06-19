@@ -1,4 +1,4 @@
-package com.tech.android.base.scanning
+package com.tech.android.scanning
 
 import android.app.Activity
 import android.content.Intent
@@ -19,12 +19,12 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.gms.common.internal.Objects
 import com.google.mlkit.vision.common.InputImage
-import com.tech.android.base.scanning.barcodedetection.BarcodeDetector
-import com.tech.android.base.scanning.barcodedetection.BarcodeProcessor
-import com.tech.android.base.scanning.camera.CameraSource
-import com.tech.android.base.scanning.camera.CameraSourcePreview
-import com.tech.android.base.scanning.camera.GraphicOverlay
-import com.tech.android.base.scanning.camera.WorkflowModel
+import com.tech.android.scanning.barcodedetection.BarcodeDetector
+import com.tech.android.scanning.barcodedetection.BarcodeProcessor
+import com.tech.android.scanning.camera.CameraSource
+import com.tech.android.scanning.camera.CameraSourcePreview
+import com.tech.android.scanning.camera.GraphicOverlay
+import com.tech.android.scanning.camera.WorkflowModel
 import java.io.IOException
 
 class LiveBarcodeScanningActivity : AppCompatActivity(), View.OnClickListener {

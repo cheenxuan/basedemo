@@ -1,4 +1,4 @@
-package com.tech.android.base.scanning.barcodedetection
+package com.tech.android.scanning.barcodedetection
 
 import android.animation.ValueAnimator
 import android.util.Log
@@ -7,9 +7,8 @@ import com.google.android.gms.tasks.TaskExecutors
 import com.google.mlkit.vision.barcode.BarcodeScanning
 import com.google.mlkit.vision.barcode.common.Barcode
 import com.google.mlkit.vision.common.InputImage
-import com.tech.android.base.scanning.ScopedExecutor
-import com.tech.android.base.scanning.camera.GraphicOverlay
-import com.tech.android.base.scanning.camera.WorkflowModel
+import com.tech.android.scanning.ScopedExecutor
+import com.tech.android.scanning.camera.WorkflowModel
 
 /**
  * @auther: xuan

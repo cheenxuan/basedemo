@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.tech.android.base.scanning.barcodedetection
+package com.tech.android.scanning.barcodedetection
 
 import android.graphics.*
 import android.graphics.Paint.Style
 import androidx.core.content.ContextCompat
-import com.tech.android.base.scanning.R
-import com.tech.android.base.scanning.camera.GraphicOverlay
+import com.tech.android.scanning.R
+import com.tech.android.scanning.camera.GraphicOverlay
 
 internal abstract class BarcodeGraphicBase(overlay: GraphicOverlay) :
     GraphicOverlay.Graphic(overlay) {
